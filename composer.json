@@ -1,0 +1,18 @@
+{
+    "require": {
+        "grpc/grpc": "^v1.26.0",
+        "google/protobuf": "^3.12",
+        "start-point/etcd-php": "^1.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Service\\Store\\" : "Store",
+            "Store\\Grpc\\" : "Store/Protobuf/Store/Grpc",
+            "Store\\Grpc\\ResourceImage\\" : "Store/Protobuf/Store/Grpc/ResourceImage",
+            "Store\\Grpc\\ResourceVideo\\" : "Store/Protobuf/Store/Grpc/ResourceVideo",
+            "Store\\Grpc\\GPBMetadata\\" : "Store/Protobuf/Store/Grpc/GPBMetadata",
+            "Service\\Libs\\" : "Libs",
+            "Testload\\" : "Testload/src"
+        }
+    }
+}

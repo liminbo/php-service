@@ -1,0 +1,82 @@
+// protobuf 文件参考:
+//  - https://developers.google.com/protocol-buffers/
+syntax = "proto3";
+package go.micro.srv.store.v1;
+option go_package = ".;v1";
+// php相关
+option php_namespace = "Store\\Grpc";
+option php_metadata_namespace = "Store\\Grpc\\GPBMetadata";
+
+message StoreListReq{
+    int32 type = 1; // 类型
+    int32 dealer_id = 2; // 经销商id
+    int32 brand_id = 3; // 品牌id
+    string city = 4; // 城市
+    int32 district_id = 5; // 街区id
+    string location = 6; // 定位
+    string tag = 7; // 分类
+    string order = 8; // 排序
+    string distance = 9; // 距离
+    int32 page = 10;
+    int32 page_size = 11;
+}
+
+message StoreDetailReq{
+    int32 store_id = 1;
+}
+
+message FuzzySearchStoreReq{
+    string query = 1;
+    int32 order = 2; // 排序
+    int32 page = 3;
+    int32 page_size = 4;
+}
+
+message EditStoreReq{
+    int32 Id = 1;
+    string title = 2;
+    int32 type = 3;
+    int32 level = 4;
+    string cover = 5;
+    string images = 6;
+    string videos = 7;
+    string brand_ids = 8;
+    string dealer_ids = 9;
+    string gaode_id = 10;
+    int32 province_code = 11;
+    int32 city_code = 12;
+    int32 area_code = 13;
+    int32 source = 14;
+    string tag_ids = 15;
+    string address = 16;
+    string tel = 17;
+    string gcj_02 = 18;
+    string location = 19;
+    int32 district_id = 20;
+    string wechat = 21;
+    string introduction = 23;
+    string brand_names = 24;
+    string styles = 25;
+    string products = 26;
+    string price_descs = 27;
+    string business_time = 28;
+    string province_name = 29;
+    string city_name = 30;
+    string area_name = 31;
+    int32 status = 32;
+
+    // 可以为空,迁移数据用
+    int32 articles = 33; // 文章数
+    int32 evaluations = 34; // 评价数
+    int32 items = 35; // 商品数
+    int32 realClicks = 36; // 真实点击数
+    int32 clicks = 37; // 点击数
+    int32 original_id = 38; // 旧表的门店id
+    int32 status_time = 39; // 认证时间
+    int32 displayorder = 40; // 上下架
+}
+
+message DeleteStoreReq{
+    int32 store_id = 1;
+}
+

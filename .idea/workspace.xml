@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bd5a95c-6ee9-4b14-a789-683b2ad1b370" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/google/protobuf" />
+      <path value="$PROJECT_DIR$/vendor/grpc/grpc" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/start-point/etcd-php" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1et4nRya6huqQknQ9tUpRgzsPwI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Store/Proto" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Service" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Store\Proto" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Store" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Store\Proto" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Store\Service\Store" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Store" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Testbo\Proto" />
+      <recent name="D:\dev_env\yidoutang\ubuntu\qee-docker\www\service\Bo\Proto" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bd5a95c-6ee9-4b14-a789-683b2ad1b370" name="Default Changelist" comment="" />
+      <created>1595127721815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595127721815</updated>
+      <workItem from="1595127722948" duration="618000" />
+      <workItem from="1595150927606" duration="649000" />
+      <workItem from="1595216144884" duration="3156000" />
+      <workItem from="1595228082473" duration="16609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="493" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595228043346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595228043346" />
+    <state x="526" y="296" width="483" height="262" key="ComposerInitDialogKey" timestamp="1595235411774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="296" width="483" height="262" key="ComposerInitDialogKey/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595235411774" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595235410846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595235410846" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595151270035" />
+    <state x="517" y="225" key="NewPhpClassDialog" timestamp="1595235989642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="225" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595235989642" />
+    <state x="599" y="335" key="NewPhpFileDialog" timestamp="1595295747367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="335" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595295747367" />
+    <state x="178" y="191" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595236801862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="191" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595236801862" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595241893123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595241893123" />
+  </component>
+</project>

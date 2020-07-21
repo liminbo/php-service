@@ -1,0 +1,53 @@
+// protobuf 文件参考:
+//  - https://developers.google.com/protocol-buffers/
+syntax = "proto3";
+package go.micro.srv.store.v1;
+
+import "store.proto";
+option go_package = ".;v1";
+// php相关
+option php_namespace = "Store\\Grpc";
+option php_metadata_namespace = "Store\\Grpc\\GPBMetadata";
+
+message StoreListRep{
+    repeated Store store = 1;
+    Page page = 2;
+}
+
+message OfflineStoreDetailRep{
+    OfflineStore offline_store = 1;
+}
+
+message OnlineStoreDetailRep{
+    OnlineStore online_store = 1;
+}
+
+message FuzzySearchStoreRep{
+    repeated Store store = 1;
+    Page page = 2;
+}
+
+message AddStoreRep{
+    int32 store_id = 1;
+}
+
+message EditStoreRep{
+}
+
+message DeleteStoreRep{
+
+}
+
+message StoreImageListRep{
+    repeated ResourceImage image = 1;
+}
+message StoreVideoListRep{
+    repeated ResourceVideo video = 1;
+}
+
+message Page{
+    int32 page = 1;
+    int32 page_size = 2;
+    int32 record_count = 3;
+}
+
