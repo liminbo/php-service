@@ -86,10 +86,7 @@ class Registry{
      * @return array
      */
     private function _getRegistryAddress(){
-//        $address = [
-//            "127.0.0.1:2379",
-//        ];
-        return $this->_registryAddress;
+        return explode(',', $this->_registryAddress);
     }
 
 }
